@@ -112,14 +112,26 @@
 // }
 // console.log(...ar2)
 
-//                                       //9-misol
+//                                       //8-misol
 
-
-// const ar=f1(1,2,3,4)
-// console.log(ar)
-// const ar1=[]
-
-// for(let i=0; i<ar.length; i++){
-//     ar1.unshift(ar[i])
+// let n=1239999999999999;
+// let sch=1;
+// while(n%10!=n){
+//     if( (n/10-(n%10)/10)>0 ){
+//         sch++
+//         n=n/10-(n%10)/10
+//     }
 // }
+// console.log(sch)
 
+//                                      //10-misol
+// let n=123;
+// let sum=0;
+// while(n%10!=n){
+//     if( (n/10-(n%10)/10)>0 ){
+//         sum=sum+n%10;
+//         n=n/10-(n%10)/10
+//     }
+// }
+// sum=sum+n;
+// console.log(sum)
