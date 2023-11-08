@@ -64,21 +64,6 @@
 // if(a===sum) console.log(true)
 // else console.log(false)
 
-//                                   //8-misol
-function son(n){
-    let sch=0;
-    for(let i=0; n%10>0; i++){
-            n=n/10-(n%10)/10
-            sch++
-    }
-    return sch
-}
-console.log(son(160))
-
-//                                   //9-misol
-
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 //                                    //15-misol
 
 // const ar=[6,5,6,8,1,3,9]
